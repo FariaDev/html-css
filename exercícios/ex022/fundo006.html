@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand - background 
+                color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -30,7 +37,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, earum veniam reiciendis consequuntur eligendi dolorem veritatis quaerat mollitia possimus, aspernatur in commodi quam et modi, facilis ut architecto exercitationem alias.
         Modi provident blanditiis exercitationem minus vitae at molestiae et voluptatem, totam eum, iure veritatis corrupti ratione iusto natus esse quam hic cum. Cumque repellat rem commodi, veritatis nihil incidunt numquam!
         Voluptates sint id facilis, ullam in, aliquid provident, recusandae accusamus ut labore voluptas iusto aperiam repellat beatae suscipit soluta? Eveniet adipisci maxime est aut obcaecati inventore minus dolores tenetur reiciendis.</p>
-
     </main>
 </body>
 </html>
